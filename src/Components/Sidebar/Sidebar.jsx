@@ -8,8 +8,8 @@ import support from "../../Assets/Img/support.svg";
 import tex from "../../Assets/Img/texpodderjki.svg";
 import settings from "../../Assets/Img/settings.svg";
 import Union from "../../Assets/Img/Union1.svg";
-
 import "./Sidebar.css";
+
 export default function Sidebar() {
   return (
     <div className="sidebar">

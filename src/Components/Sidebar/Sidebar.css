@@ -29,41 +29,39 @@
 .logo-img {
   padding: 20px 24px;
 }
- 
- 
+
 .sidebar-blok {
   display: flex;
   flex-direction: column;
 }
 
 .sidebar-link {
-    padding: 18px 24px;
+  padding: 18px 24px;
 
-   transition: 0.3s;
+  transition: 0.3s;
 }
 .sidebar-list {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.sidebar-top .sidebar-link:hover{
-    background: rgba(255, 255, 255, 0.1);
-box-shadow: inset 8px 0px 0px #FFFFFF;
+.sidebar-top .sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 8px 0px 0px #ffffff;
 }
-.dashboard-item .sidebar-link{
-    padding: 14px 24px;
+.dashboard-item .sidebar-link {
+  padding: 14px 24px;
 }
-.sidebar-tel{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 18px;
- text-align: end;
-letter-spacing: 0.01em;
+.sidebar-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: end;
+  letter-spacing: 0.01em;
 
- 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.sidebar-thumb{
-    padding: 10px 24px;
-    margin-top: 15px;
+.sidebar-thumb {
+  padding: 10px 24px;
+  margin-top: 15px;
 }
