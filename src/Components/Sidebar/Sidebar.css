@@ -1,5 +1,69 @@
-.sidebar{
-    background: #0C2556;
-    width: 250px;
-    height: 100vh;
+.sidebar {
+  background: #0c2556;
+  width: 17%;
+  min-height: 100vh;
+  height: 130vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sidebar-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 15px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  width: 100%;
+}
+.logo-img {
+  padding: 20px 24px;
+}
+ 
+ 
+.sidebar-blok {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+    padding: 18px 24px;
+
+   transition: 0.3s;
+}
+.sidebar-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar-top .sidebar-link:hover{
+    background: rgba(255, 255, 255, 0.1);
+box-shadow: inset 8px 0px 0px #FFFFFF;
+}
+.dashboard-item .sidebar-link{
+    padding: 14px 24px;
+}
+.sidebar-tel{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+ text-align: end;
+letter-spacing: 0.01em;
+
+ 
+color: #FFFFFF;
+}
+.sidebar-thumb{
+    padding: 10px 24px;
+    margin-top: 15px;
 }

@@ -5,6 +5,8 @@ export default function HomePage() {
   return (
     <div className='homepage'>
         <Sidebar />
+        <div className="main"></div>
+
     </div>
   )
 }
