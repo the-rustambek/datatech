@@ -15,7 +15,6 @@
   line-height: 18px;
   padding-left: 15px;
   letter-spacing: 0.01em;
-
   color: #ffffff;
 }
 .sidebar-link {
@@ -37,7 +36,6 @@
 
 .sidebar-link {
   padding: 18px 24px;
-
   transition: 0.3s;
 }
 .sidebar-list {
@@ -58,7 +56,6 @@
   line-height: 18px;
   text-align: end;
   letter-spacing: 0.01em;
-
   color: #ffffff;
 }
 .sidebar-thumb {

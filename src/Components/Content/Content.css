@@ -1,0 +1,133 @@
+.content {
+  padding: 32px;
+}
+
+.content-title {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  width: 58%;
+  padding: 24px;
+}
+
+.content-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #303030;
+}
+
+.content-code {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0fbe7b;
+}
+
+.content-item {
+  display: flex;
+}
+
+.content-names {
+  width: 235px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.content-download {
+  background: #2b63c0;
+  border-radius: 8px;
+  width: 110px;
+  height: 30px;
+  border: none;
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+.content-texts {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2b63c0;
+}
+
+.content-success {
+  background: #0fbe7b;
+  border-radius: 8px;
+  width: 162px;
+  height: 48px;
+  border: none;
+  color: #ffffff;
+}
+
+.content-delete {
+  background: #fe346e;
+  border-radius: 8px;
+  width: 162px;
+  height: 48px;
+  margin: 0 10px;
+  border: none;
+  color: #ffffff;
+}
+
+.content-title:last-child {
+  width: 40%;
+}
+.content-button {
+  margin-top: 80px;
+}
+
+.content-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-file {
+  display: flex;
+  align-items: center;
+}
+
+.content-subnames {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #ffa41d;
+}
+
+.content-img{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 20px;
+}

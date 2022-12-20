@@ -9,23 +9,24 @@ import tex from "../../Assets/Img/texpodderjki.svg";
 import settings from "../../Assets/Img/settings.svg";
 import Union from "../../Assets/Img/Union1.svg";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-top">
-        <a href="#" className="logo-link">
+        <Link to="/" className="logo-link">
           <img src={logo} alt="" className="logo-img" />
-        </a>
+        </Link>
         <ul className="sidebar-list">
           <li className="sidebar-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/" className="sidebar-link">
               <img src={icon} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Создать</p>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/message" className="sidebar-link">
               <img
                 src={icon1}
                 alt=""
@@ -33,32 +34,32 @@ export default function Sidebar() {
                 className="sidebar-icon"
               />
               <p className="sidebar-text">Входящие (2)</p>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/document" className="sidebar-link">
               <img src={icon1} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Исходящие (3)</p>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/content" className="sidebar-link">
               <img src={icon2} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Сохраненные (0)</p>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/" className="sidebar-link">
               <img src={icon3} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Сохраненные (0)</p>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="sidebar-bottom">
         <ul className="dashboard-list">
           <li className="dashboard-item">
-            <a href="#" className="sidebar-link">
+            <a href="tel:+998999999999" className="sidebar-link">
               <img src={tex} alt="" className="sidebar-icon" />
               <div className="sidebar-blok">
                 <p className="sidebar-text">Тех поддержка:</p>
@@ -67,16 +68,16 @@ export default function Sidebar() {
             </a>
           </li>
           <li className="dashboard-item">
-            <a href="#" className="sidebar-link">
+            <Link to="/"  className="sidebar-link">
               <img src={settings} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Настройки </p>
-            </a>
+            </Link>
           </li>
           <li className="dashboard-item">
-            <a href="#" className="sidebar-link">
+            <Link to=""  className="sidebar-link">
               <img src={Union} alt="" className="sidebar-icon" />
               <p className="sidebar-text">Выйти </p>
-            </a>
+            </Link>
           </li>
           <img src={support} alt="" className="sidebar-thumb" />
         </ul>

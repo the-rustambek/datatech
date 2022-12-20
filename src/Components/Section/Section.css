@@ -1,0 +1,249 @@
+.section {
+  padding: 45px 32px;
+}
+
+.section-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.section-button {
+  background: #2b63c0;
+  border-radius: 8px;
+  width: 176px;
+  height: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 2px solid #2b63c0;
+  cursor: pointer;
+}
+
+.section-title {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.section-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.section-select {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  width: 48%;
+  height: 48px;
+  background: #ffffff;
+  outline: none;
+  padding: 12px;
+  margin-top: 10px;
+}
+.section-select:last-child {
+  width: 96%;
+}
+
+.section-input {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  width: 96%;
+  height: 48px;
+  background: #ffffff;
+  outline: none;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.section-input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+
+.section-inputs {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  width: 94%;
+  height: 48px;
+  background: #ffffff;
+  padding: 12px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.section-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-left {
+  width: 50%;
+}
+
+.section-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-selects {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 12px;
+  width: 709px;
+  height: 48px;
+  outline: none;
+}
+
+.section-form {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  background: #ffffff;
+  width: 248px;
+  height: 48px;
+  padding: 12px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.section-bottom {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.section-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-delete {
+  background: #fe346e;
+  border-radius: 8px;
+  width: 150px;
+  height: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid #fe346e;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.section-submit {
+  background: #2b63c0;
+  border-radius: 8px;
+  width: 224px;
+  height: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  margin: 0 16px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 2px solid #2b63c0;
+}
+
+.section-submits {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #2b63c0;
+  border-radius: 8px;
+  width: 130px;
+  height: 48px;
+  cursor: pointer;
+  border: 2px solid #2b63c0;
+  margin: 0 10px;
+}
+
+.section-button-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.section-excel {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 15px 0;
+}
+
+.section-download {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.section-excel span {
+  display: flex;
+  align-items: center;
+}
+
+.section-pic {
+  width: 100%;
+  object-fit: contain;
+}
+
+.section-excel-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-excel-bottom p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b63c0;
+  display: flex;
+  align-items: center;
+}
+
+.section-icon{
+  margin: 0 8px;
+}

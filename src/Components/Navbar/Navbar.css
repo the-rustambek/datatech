@@ -1,0 +1,98 @@
+.navbar {
+  background: #ffffff;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.08);
+  padding: 28px 0;
+  padding-left: 32px;
+  padding-right: 23px;
+  width: 100%;
+}
+
+.navbar-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #303030;
+}
+
+.navbar-number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #303030;
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+.navbar-btn {
+  background: rgba(24, 144, 255, 0.1);
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-subname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+  line-height: 16px;
+}
+
+.navbar-sum {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2b63c0;
+}
+
+.navbar-button {
+  background: #2b63c0;
+  border-radius: 8px;
+  width: 160px;
+  height: 36px;
+  border: 2px solid #2b63c0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+.navbar-span{
+    margin: 0 8px;
+}
+.navbar-icon{
+    margin: 0 30px;
+}
+
+.navbar-btns{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}

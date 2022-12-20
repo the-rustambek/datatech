@@ -1,12 +1,13 @@
 import React from 'react'
-import Sidebar from '../../Components/Sidebar/Sidebar'
+import './HomePage.css'
+import Navbar from '../../Components/Navbar/Navbar'
+import Section from '../../Components/Section/Section'
 
 export default function HomePage() {
   return (
     <div className='homepage'>
-        <Sidebar />
-        <div className="main"></div>
-
+          <Navbar />
+          <Section />
     </div>
   )
 }
